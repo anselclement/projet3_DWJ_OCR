@@ -1,5 +1,25 @@
-adresse du site internet :
-
-http://bicloo-dwj.webagencyansel.xyz/
-
-Concevez une carte interactive de location de vélos Description du projetVous devez développer une page de type "Single page Application" simulant la réservation de vélos dans une ville. Ces vélos sont répartis dans de nombreuses stations dans la ville. L'utilisateur doit pouvoir réserver un vélo depuis son navigateur (à condition qu'il reste des vélos disponibles à la station !). La réservation est alors temporairement enregistrée sur le navigateur du visiteur.  Cette application doit notamment, en s'appuyant sur JavaScript, afficher une carte avec la liste des stations de location de vélos disponibles dans la ville.   Diaporama : Vous devez afficher en haut de la page un diaporama de photos et de textes expliquant le fonctionnement de l'application. La logique du diaporama doit être écrite par vos soins. L’utilisation de tout plugin automatisant la logique de l’application est proscrite.  Carte des vélos : En-­dessous du diaporama se trouve une carte affichant en temps réel la liste des stations de location de vélos ainsi que leur disponibilité. La localisation de toutes les stations de vélos est affichée à l’aide de marqueurs.  La localisation et l'état de chaque station (ouverte, en travaux, combien de vélos et de places sont disponibles, etc.) est fourni via la plateforme OpenData de JC Decaux.  Réservation d'un vélo : Il doit être possible de réserver un vélo disponible à la station sélectionnée en :  - indiquant son nom et son prénom, - signant dans un champ libre implémenté à l’aide de l’API HTML5 Canvas.  Les données de réservation seront stockées dans le navigateur à l’aide de l’API Web Storage et affichées en dessous du panneau. L'état de la réservation (s’il y en a une) est ainsi affiché, avec un décompte dynamique du temps restant avant expiration de la réservation.  Une réservation expire automatiquement au bout de 20 minutes et également lorsque le navigateur web se referme.  Contraintes techniques:  Le code JavaScript doit être conçu en Programmation Orientée Objet.
+Concevez une carte interactive de location de vÃ©los
+ Description du projetVous devez dÃ©velopper une page de type "Single page Application" simulant la rÃ©servation de vÃ©los dans une ville. Ces vÃ©los sont rÃ©partis dans de nombreuses stations dans la ville. L'utilisateur doit pouvoir rÃ©server un vÃ©lo depuis son navigateur (Ã  condition qu'il reste des vÃ©los disponibles Ã  la station !). La rÃ©servation est alors temporairement enregistrÃ©e sur le navigateur du visiteur.
+ 
+ Cette application doit notamment, en s'appuyant sur JavaScript, afficher une carte avec la liste des stations de location de vÃ©los disponibles dans la ville. 
+ 
+ Diaporama :
+ Vous devez afficher en haut de la page un diaporama de photos et de textes expliquant le fonctionnement de l'application. La logique du diaporama doit Ãªtre Ã©crite par vos soins. Lâ€™utilisation de tout plugin automatisant la logique de lâ€™application est proscrite.
+ 
+ Carte des vÃ©los :
+ En-Â­dessous du diaporama se trouve une carte affichant en temps rÃ©el la liste des stations de location de vÃ©los ainsi que leur disponibilitÃ©. La localisation de toutes les stations de vÃ©los est affichÃ©e Ã  lâ€™aide de marqueurs.
+ 
+ La localisation et l'Ã©tat de chaque station (ouverte, en travaux, combien de vÃ©los et de places sont disponibles, etc.) est fourni via la plateforme OpenData de JC Decaux.
+ 
+ RÃ©servation d'un vÃ©lo :
+ Il doit Ãªtre possible de rÃ©server un vÃ©lo disponible Ã  la station sÃ©lectionnÃ©e en :
+ 
+ - indiquant son nom et son prÃ©nom,
+ - signant dans un champ libre implÃ©mentÃ© Ã  lâ€™aide de lâ€™API HTML5 Canvas.
+ 
+ Les donnÃ©es de rÃ©servation seront stockÃ©es dans le navigateur Ã  lâ€™aide de lâ€™API Web Storage et affichÃ©es en dessous du panneau. L'Ã©tat de la rÃ©servation (sâ€™il y en a une) est ainsi affichÃ©, avec un dÃ©compte dynamique du temps restant avant expiration de la rÃ©servation.
+ 
+ Une rÃ©servation expire automatiquement au bout de 20 minutes et Ã©galement lorsque le navigateur web se referme.
+ 
+ Contraintes techniques: 
+ Le code JavaScript doit Ãªtre conÃ§u en Programmation OrientÃ©e Objet.
